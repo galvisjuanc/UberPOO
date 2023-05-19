@@ -8,5 +8,8 @@ public class Main {
         car.passenger = 4;
         System.out.println("Car License: " + car.license);
         car.printDataCar();
+
+        Driver driver = new Driver("Carlos Tapias", "avenida falsa 123", "carlos.tapias@elma.com", "carlostapias1");
+        driver.printDataUser();
     }
 }
